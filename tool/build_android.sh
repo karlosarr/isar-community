@@ -23,7 +23,7 @@ fi
 
 COMPILER_DIR="$NDK/toolchains/llvm/prebuilt/$NDK_HOST_TAG/bin"
 export PATH="$COMPILER_DIR:$PATH"
-export RUSTFLAGS="-C link-arg=-Wl,--max-page-size=16384"
+#export RUSTFLAGS="-C link-arg=-Wl,--max-page-size=16384"
 echo "Using NDK at: $NDK"
 echo "Compiler dir: $COMPILER_DIR"
 
